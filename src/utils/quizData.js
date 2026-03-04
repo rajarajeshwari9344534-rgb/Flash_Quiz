@@ -1,0 +1,253 @@
+export const quizData = {
+  React: [
+    {
+      id: 1,
+      question: "React is developed by?",
+      options: ["Google", "Facebook", "Microsoft", "Amazon"],
+      answer: "Facebook",
+    },
+    {
+      id: 2,
+      question: "Which hook is used for state?",
+      options: ["useFetch", "useState", "useEffect", "useData"],
+      answer: "useState",
+    },
+    {
+      id: 3,
+      question: "What is JSX?",
+      options: [
+        "Java Syntax Extension",
+        "JavaScript XML",
+        "JSON XML",
+        "None",
+      ],
+      answer: "JavaScript XML",
+    },
+    {
+      id: 4,
+      question: "Which method renders React to DOM?",
+      options: ["render()", "ReactDOM.render()", "mount()", "display()"],
+      answer: "ReactDOM.render()",
+    },
+    {
+      id: 5,
+      question: "React components must return?",
+      options: ["Number", "Boolean", "JSX", "String"],
+      answer: "JSX",
+    },
+    {
+      id: 6,
+      question: "Which hook runs side effects?",
+      options: ["useState", "useEffect", "useMemo", "useRef"],
+      answer: "useEffect",
+    },
+    {
+      id: 7,
+      question: "Props are?",
+      options: [
+        "Mutable",
+        "Read only",
+        "Functions",
+        "Variables",
+      ],
+      answer: "Read only",
+    },
+    {
+      id: 8,
+      question: "Which hook stores mutable value?",
+      options: ["useRef", "useState", "useEffect", "useStore"],
+      answer: "useRef",
+    },
+    {
+      id: 9,
+      question: "React is mainly for?",
+      options: [
+        "Database",
+        "UI building",
+        "Server",
+        "Networking",
+      ],
+      answer: "UI building",
+    },
+    {
+      id: 10,
+      question: "Virtual DOM improves?",
+      options: ["Speed", "Memory", "Storage", "Security"],
+      answer: "Speed",
+    },
+    {
+      id: 11,
+      question: "Which hook memoizes value?",
+      options: ["useMemo", "useState", "useRef", "useEffect"],
+      answer: "useMemo",
+    },
+  ],
+
+  JavaScript: [
+    {
+      id: 1,
+      question: "JS stands for?",
+      options: ["JavaScript", "JavaSource", "JustScript", "None"],
+      answer: "JavaScript",
+    },
+    {
+      id: 2,
+      question: "Which keyword declares block variable?",
+      options: ["var", "let", "int", "define"],
+      answer: "let",
+    },
+    {
+      id: 3,
+      question: "Which converts JSON to object?",
+      options: [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.convert()",
+        "JSON.toObj()",
+      ],
+      answer: "JSON.parse()",
+    },
+    {
+      id: 4,
+      question: "Which symbol is single-line comment?",
+      options: ["//", "#", "<!-- -->", "**"],
+      answer: "//",
+    },
+    {
+      id: 5,
+      question: "typeof null returns?",
+      options: ["null", "object", "undefined", "number"],
+      answer: "object",
+    },
+    {
+      id: 6,
+      question: "Which is NOT primitive?",
+      options: ["String", "Number", "Object", "Boolean"],
+      answer: "Object",
+    },
+    {
+      id: 7,
+      question: "NaN means?",
+      options: [
+        "Not a Number",
+        "New and Null",
+        "Negative number",
+        "None",
+      ],
+      answer: "Not a Number",
+    },
+    {
+      id: 8,
+      question: "Which method adds item to end of array?",
+      options: ["push()", "pop()", "shift()", "map()"],
+      answer: "push()",
+    },
+    {
+      id: 9,
+      question: "Which removes last array item?",
+      options: ["pop()", "push()", "shift()", "slice()"],
+      answer: "pop()",
+    },
+    {
+      id: 10,
+      question: "Which keyword is for constant?",
+      options: ["let", "const", "var", "static"],
+      answer: "const",
+    },
+    {
+      id: 11,
+      question: "=== checks?",
+      options: [
+        "Value only",
+        "Value and type",
+        "Type only",
+        "None",
+      ],
+      answer: "Value and type",
+    },
+  ],
+
+  HTML: [
+    {
+      id: 1,
+      question: "HTML stands for?",
+      options: [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Hyperlinks Text Mark",
+        "None",
+      ],
+      answer: "Hyper Text Markup Language",
+    },
+    {
+      id: 2,
+      question: "Which tag creates hyperlink?",
+      options: ["<a>", "<link>", "<href>", "<hyper>"],
+      answer: "<a>",
+    },
+    {
+      id: 3,
+      question: "Image tag?",
+      options: ["<img>", "<image>", "<pic>", "<src>"],
+      answer: "<img>",
+    },
+    {
+      id: 4,
+      question: "Largest heading tag?",
+      options: ["<h6>", "<heading>", "<h1>", "<head>"],
+      answer: "<h1>",
+    },
+    {
+      id: 5,
+      question: "Line break tag?",
+      options: ["<br>", "<lb>", "<break>", "<hr>"],
+      answer: "<br>",
+    },
+    {
+      id: 6,
+      question: "Table row tag?",
+      options: ["<tr>", "<td>", "<th>", "<table>"],
+      answer: "<tr>",
+    },
+    {
+      id: 7,
+      question: "Form tag?",
+      options: ["<form>", "<input>", "<label>", "<fieldset>"],
+      answer: "<form>",
+    },
+    {
+      id: 8,
+      question: "Ordered list tag?",
+      options: ["<ol>", "<ul>", "<li>", "<list>"],
+      answer: "<ol>",
+    },
+    {
+      id: 9,
+      question: "List item tag?",
+      options: ["<li>", "<ul>", "<ol>", "<item>"],
+      answer: "<li>",
+    },
+    {
+      id: 10,
+      question: "HTML is?",
+      options: [
+        "Programming language",
+        "Markup language",
+        "Database",
+        "Server",
+      ],
+      answer: "Markup language",
+    },
+    {
+      id: 11,
+      question: "Meta tag is used for?",
+      options: [
+        "Metadata",
+        "Styling",
+        "Scripting",
+        "Layout",
+      ],
+      answer: "Metadata",
+    },
+  ],
+};
