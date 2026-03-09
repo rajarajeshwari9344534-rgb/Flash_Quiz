@@ -1,16 +1,24 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Navbar(){
-  return(
-    <nav className="navbar">
-      <h1>Flash Quiz</h1>
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/topics">Topics</Link>
-        <Link to="/history">History</Link>
-      </div>
-    </nav>
-  )
+
+return(
+
+<nav className="navbar">
+
+<h2>Flash Quiz</h2>
+
+<div>
+
+<Link to="/">Home</Link>
+<Link to="/history">History</Link>
+
+</div>
+
+</nav>
+
+)
+
 }
 
 export default Navbar

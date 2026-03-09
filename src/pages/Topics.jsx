@@ -1,21 +1,21 @@
-import { useNavigate } from "react-router-dom";
-import { topics } from "../utils/topics";
+import { Link } from "react-router-dom";
 
-function Topics (){
-    const navigate =useNavigate();
+function Topics() {
+  return (
+    <div>
 
+      <h2>Select Topic</h2>
 
-    return(
-        <div className="center">
-            <h1>Select Your Topic</h1>
+      <Link to="/quiz/React">
+        <button>React Quiz</button>
+      </Link>
 
-            {topics.map((topic,index) =>(
-                <button key={index} className="btn" onClick={()=> navigate(`/quiz/${topic}`)} >
-                    {topic}  
-                </button>
-            ))}
-        </div>
-    )
+      <Link to="/quiz/JavaScript">
+        <button>JavaScript Quiz</button>
+      </Link>
+
+    </div>
+  );
 }
 
-export default Topics
+export default Topics;
