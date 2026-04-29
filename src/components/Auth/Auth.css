@@ -67,6 +67,26 @@ font-size:15px;
 cursor:pointer;
 }
 
+.admin-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.admin-checkbox input {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.admin-checkbox label {
+  margin: 0;
+  font-size: 14px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
 .auth-btn:hover{
 background:#1e40af;
 }

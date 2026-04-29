@@ -1,33 +1,78 @@
-.header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 40px;
-background:white;
-border-bottom:1px solid #e5e7eb;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #f1f5f9;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
 }
 
-.logo{
-font-size:22px;
-font-weight:600;
-color:#2563eb;
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1e293b;
+  cursor: pointer;
 }
 
-.nav-links{
-display:flex;
-align-items:center;
-gap:20px;
+.logo span {
+  color: #6366f1;
 }
 
-.nav-links a{
-text-decoration:none;
-color:#374151;
-font-size:15px;
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.signup-btn{
-background:#2563eb;
-color:white;
-padding:8px 16px;
-border-radius:6px;
+.nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #64748b;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #6366f1;
+}
+
+.user-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: #f1f5f9;
+  color: #ef4444;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #fef2f2;
+}
+
+.signup-btn {
+  background: #6366f1;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.2);
 }
